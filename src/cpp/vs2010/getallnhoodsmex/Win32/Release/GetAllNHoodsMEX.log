@@ -1,0 +1,23 @@
+﻿Build started 3/8/2014 1:14:38 AM.
+     1>Project "D:\Dropbox\current_work\GitHub\micro-recon\cpp\vs2010\GetAllNHoodsMEX\GetAllNHoodsMEX.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Touching "Win32\Release\GetAllNHoodsMEX.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\GetAllNHoodsMEX.mexw64" /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2012a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\GetAllNHoodsMEX.mexw64.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dropbox\current_work\GitHub\micro-recon\cpp\bin\GetAllNHoodsMEX.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\GetAllNHoodsMEX.lib" /MACHINE:X86 /DLL Win32\Release\GetAllNHoodsMEX.obj /export:mexFunction 
+            Creating library ..\..\bin\GetAllNHoodsMEX.lib and object ..\..\bin\GetAllNHoodsMEX.exp
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxIsDouble
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxGetN
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxGetPr
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mexErrMsgTxt
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxGetM
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxGetScalar
+     1>GetAllNHoodsMEX.obj : error LNK2001: unresolved external symbol _mxCreateDoubleMatrix_730
+     1>..\..\bin\GetAllNHoodsMEX.mexw64 : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "D:\Dropbox\current_work\GitHub\micro-recon\cpp\vs2010\GetAllNHoodsMEX\GetAllNHoodsMEX.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.76

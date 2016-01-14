@@ -1,0 +1,22 @@
+﻿Build started 9/5/2014 2:34:07 AM.
+     1>Project "D:\Dropbox\current_work\GitHub\micro-recon\src\cpp\vs2010\GetAllNHoodsMEX\GetAllNHoodsMEX.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\GetAllNHoodsMEX.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'D:\DROPBOX\CURRENT_WORK\GITHUB\MICRO-RECON\SRC\CPP\BIN\GETALLNHOODSMEX.MEXW64' is denied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets(74,5): warning : Access to the path 'D:\Dropbox\current_work\GitHub\micro-recon\src\cpp\bin\GetAllNHoodsMEX.mexw64' is denied.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "x64\Release\GetAllNHoodsMEX.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\GetAllNHoodsMEX.cpp
+         GetAllNHoodsMEX.cpp
+     1>..\..\GetAllNHoodsMEX.cpp(24): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\GetAllNHoodsMEX.cpp(25): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\GetAllNHoodsMEX.mexw64" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\MATLAB\R2012a\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\GetAllNHoodsMEX.mexw64.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Dropbox\current_work\GitHub\micro-recon\src\cpp\bin\GetAllNHoodsMEX.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\GetAllNHoodsMEX.lib" /MACHINE:X64 /DLL x64\Release\GetAllNHoodsMEX.obj /export:mexFunction 
+     1>LINK : fatal error LNK1104: cannot open file '..\..\bin\GetAllNHoodsMEX.mexw64'
+     1>Done Building Project "D:\Dropbox\current_work\GitHub\micro-recon\src\cpp\vs2010\GetAllNHoodsMEX\GetAllNHoodsMEX.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.73
